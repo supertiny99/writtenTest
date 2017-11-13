@@ -2,9 +2,9 @@ class Equation {
   /**
    * 生成多个一定数字以内的非负数加减运算等式，
    * 运算过程中不的数不能大于一定数字并且无负数
-   * @param  {[type]} amount 生成的等式个数
-   * @param  {[type]} range  不能超过的指定数字
-   * @return {[type]}
+   * @param  { number } amount 生成的等式个数
+   * @param  { number } range  不能超过的指定数字
+   * @return { }
    */
   constructor(amount, range) {
     this.amount = amount;
